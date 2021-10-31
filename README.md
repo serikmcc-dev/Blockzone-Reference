@@ -41,8 +41,8 @@ __Blockzone__ is a Zombie Horde Survival & Battle Royale plugin that completely 
 
 __PLEASE__ refer to these links before starting any setup on your Minecraft server! These links will provide you with the necessary information to get the best experience out of Blockzone
 
-- [Config.yml Details & Overview](README/CONFIG.md)
-- [Commands](README/COMMANDS.md)
+- [Config.yml Details & Overview](Guides/Config.md)
+- [Commands](Guides/Commands.md)
 
 ------------------------------------------------------------------
 
@@ -60,9 +60,9 @@ This setup creates the center and spawn for the world, and engages the World Bor
 > Some commands CANNOT be used when outside of the Battle Lobby! Make sure your lobby is clear and defined so players know when they can access the Store or Player Shop
 
 1. Download the _Blockzone_ plugin and add it to your Plugins folder on your server. If a restart is required, please do this now.
-2. Adjust the `config.yml` to your liking. __Be sure to only change the values marked in the [Config Details file](README/CONFIG.md)__!
+2. Adjust the `config.yml` to your liking. __Be sure to only change the values marked in the [Config Details file](Guides/Config.md)__!
 3. Join your world and find a location that fits as a center for the battlegrounds and settle on the ground. __Recommended__: Find a wide-open flat area with some mountains, caves, etc. Use the landscape as a guide for the best experience!
-4. Use the `/bzset battlelobby` command (found [here](README/COMMANDS.md)) to set the spawn & center of your battlegrounds. This will build the World Borders at the specified distance FROM this central location
+4. Use the `/bzset battlelobby` command (found [here](Guides/Commands.md)) to set the spawn & center of your battlegrounds. This will build the World Borders at the specified distance FROM this central location
 
 Once the command has been used, your Battle Lobby will be __20 Blocks__ in all directions from the center you used. Build your Battle Lobby building/compound in this square area so your players will have a safe location to spawn/respawn/teleport to during gameplay.
 
@@ -82,7 +82,7 @@ Lootboxes give your players something to search for and award randomly generated
 
 1. After selecting/building your structure or site, place a __Chest__ (SINGLE CHEST ONLY) in the lootbox spot.
 2. Walk up DIRECTLY to it and stare at the Chest. This ensures the chest is the block receiving the "Lootbox" title.
-3. Use the `/bzset lootbox [#]` command (found [here](README/COMMANDS.md)) and enter the number you are currently on. I.E., `/bzset lootbox 1`. Dont forget to increment the chests!
+3. Use the `/bzset lootbox [#]` command (found [here](Guides/Commands.md)) and enter the number you are currently on. I.E., `/bzset lootbox 1`. Dont forget to increment the chests!
 
 After running the command, you will receive a message indicating the lootbox has been set. The plugin will check periodically for contents and add more items to keep loot fresh and stocked. Error message will display if the command was used the incorrect way
 
@@ -92,7 +92,7 @@ After running the command, you will receive a message indicating the lootbox has
 
 These links will take you through the simple utilization and information that is based on the Blockzone plugin. Use this as a reference if there are any questions about how to use or interact with things in the battlegrounds.
 
-- [Blockzone How-To](README/HOW_TO.md)
+- [Blockzone How-To](Guides/How-To.md)
 
 ---------------------------------------------------------------------------------
 
